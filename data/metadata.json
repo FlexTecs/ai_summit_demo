@@ -1,0 +1,202 @@
+{
+  "title": "Amazon Bird Food Dataset",
+  "description": "This dataset contains information on bird food products listed on Amazon, including details such as name, price, ratings, reviews, and seller information. The dataset is intended for use in e-commerce analysis, product research, and data-driven marketing studies.",
+  "version": "1.0",
+  "keywords": [
+    "Amazon",
+    "bird food",
+    "e-commerce",
+    "product data",
+    "wildlife"
+  ],
+  "contributors": [
+    {
+      "name": "Octaprice",
+      "role": "Data Curator",
+      "contact": "contact@octaprice.com"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "citation": "If using this dataset, please cite as: Amazon Bird Food Dataset, curated by Octaprice, 2024.",
+  "source": "Amazon.com",
+  "data_schema": {
+    "columns": [
+      {
+        "name": "additionalProperties",
+        "description": "A JSON array containing various product specifications including dimensions, weight, manufacturer details, ASIN, country of origin, model number, and sales rank information",
+        "type": "string",
+        "example": "[{\"name\": \"Product Dimensions\", \"value\": \"11.9 x 8.2 x 5.2 inches\"}, {\"name\": \"Item Weight\", \"value\": \"8 pounds\"}, {\"name\": \"Manufacturer\", \"value\": \"Wagner's\"}, {\"name\": \"ASIN\", \"value\": \"B0031066V8\"}, {\"name\": \"Country of Origin\", \"value\": \"USA\"}, {\"name\": \"Item model number\", \"value\": \"62042\"}, {\"name\": \"Is Discontinued By Manufacturer\", \"value\": \"No\"}, {\"name\": \"Best Sellers Rank\", \"value\": \"#2,512 in Patio, Lawn & Garden ( See Top 100 in Patio, Lawn & Garden ) #65 in Bird Seed\"}]"
+      },
+      {
+        "name": "brandName",
+        "description": "The manufacturer or brand name of the bird food product",
+        "type": "string",
+        "example": "Wagner's"
+      },
+      {
+        "name": "breadcrumbs",
+        "description": "The hierarchical navigation path showing the product's category structure on Amazon",
+        "type": "string",
+        "example": "[{\"name\": \"Patio, Lawn & Garden\"}, {\"name\": \"Outdoor D\\u00e9cor\"}, {\"name\": \"Backyard Birding & Wildlife\"}, {\"name\": \"Birds\"}, {\"name\": \"Food\"}, {\"name\": \"Bird Seed\"}]"
+      },
+      {
+        "name": "color",
+        "description": "The color or variety name of the bird food product",
+        "type": "string",
+        "example": "Black Oil Sunflower"
+      },
+      {
+        "name": "currency",
+        "description": "The currency used for pricing (e.g., USD for United States Dollar)",
+        "type": "string",
+        "example": "USD"
+      },
+      {
+        "name": "description",
+        "description": "The plain text product description providing detailed information about the bird food",
+        "type": "string",
+        "example": "Wagner's Songbird Supreme has more of what songbirds want. Songbird Supreme is our favorite blend because it contains more of what your songbirds crave. This blend includes high concentrations of tasty quality seeds preferred by the songbirds you want to see in your backyard. With 50% of the blend being black oil sunflower, striped sunflower and sunflower chips, your favorite birds will flock to the feeder. The peanut kernels, safflower seeds and white millet will assure that you can nurture and enjoy a wide variety of beautiful songbirds throughout the year. By adding only the best ingredients we have created a highly attractive and nutritious blend for backyard feeding. Trust your backyard birds to the experts at Wagner's."
+      },
+      {
+        "name": "descriptionRaw",
+        "description": "The HTML-formatted version of the product description",
+        "type": "string",
+        "example": "<article>\n\n<p>Wagner's Songbird Supreme has more of what songbirds want. Songbird Supreme is our favorite blend because it contains more of what your songbirds crave. This blend includes high concentrations of tasty quality seeds preferred by the songbirds you want to see in your backyard. With 50% of the blend being black oil sunflower, striped sunflower and sunflower chips, your favorite birds will flock to the feeder. The peanut kernels, safflower seeds and white millet will assure that you can nurture and enjoy a wide variety of beautiful songbirds throughout the year. By adding only the best ingredients we have created a highly attractive and nutritious blend for backyard feeding. Trust your backyard birds to the experts at Wagner's.</p>\n\n</article>"
+      },
+      {
+        "name": "features",
+        "description": "An array of key product features and benefits",
+        "type": "string",
+        "example": "[\"A blend of preferred seed to attract your favorite backyard songbirds\", \"Contains 50% sunflower and other premium wild bird food ingredients\", \"Can be fed in a tube, hopper, or platform feeders\", \"Convenient reclosable slider\", \"Made in the USA\"]"
+      },
+      {
+        "name": "gtin",
+        "description": "Global Trade Item Number (includes UPC, EAN, etc.) for product identification",
+        "type": "string",
+        "example": "[{\"type\": \"upc\", \"value\": \"751478102542\"}]"
+      },
+      {
+        "name": "imageUrls",
+        "description": "An array of URLs pointing to product images on Amazon's servers",
+        "type": "string",
+        "example": "[\"https://m.media-amazon.com/images/I/81kMXpw2j+L._AC_SL1500_.jpg\", \"https://m.media-amazon.com/images/I/81NFpaCeT3L._AC_SL1500_.jpg\", \"https://m.media-amazon.com/images/I/91N0FAa-tWL._AC_SL1500_.jpg\", \"https://m.media-amazon.com/images/I/71M8hFPMUnL._AC_SL1500_.jpg\", \"https://m.media-amazon.com/images/I/71Kl0M6VJTL._AC_SL1500_.jpg\", \"https://m.media-amazon.com/images/I/71CiUSNPEvL._AC_SL1500_.jpg\"]"
+      },
+      {
+        "name": "inStock",
+        "description": "Boolean indicator of whether the product is currently available for purchase",
+        "type": "string",
+        "example": true
+      },
+      {
+        "name": "listedPrice",
+        "description": "The original price of the product before any discounts",
+        "type": "float",
+        "example": 14.98
+      },
+      {
+        "name": "mpn",
+        "description": "Manufacturer Part Number - unique identifier assigned by the manufacturer",
+        "type": "string",
+        "example": "62042"
+      },
+      {
+        "name": "name",
+        "description": "The complete product title as displayed on Amazon",
+        "type": "string",
+        "example": "Wagner's 62042 Songbird Supreme Blend Wild Bird Food, 8-Pound Bag"
+      },
+      {
+        "name": "other_sellers",
+        "description": "Array of alternative sellers offering the same product, including their names and prices",
+        "type": "string",
+        "example": "[{\"sellerName\": \"A Gnome Home\", \"salePrice\": \"36.99\"}]"
+      },
+      {
+        "name": "rating",
+        "description": "Average customer rating out of 5 stars",
+        "type": "float",
+        "example": 4.7
+      },
+      {
+        "name": "reviewCount",
+        "description": "Total number of customer reviews for the product",
+        "type": "float",
+        "example": 4355.0
+      },
+      {
+        "name": "salePrice",
+        "description": "The current selling price, which may include discounts",
+        "type": "float",
+        "example": 14.98
+      },
+      {
+        "name": "scrapedDate",
+        "description": "ISO 8601 formatted timestamp indicating when the data was collected",
+        "type": "string",
+        "example": "2025-01-23T21:19:27Z"
+      },
+      {
+        "name": "sellerName",
+        "description": "Name of the primary seller offering the product",
+        "type": "string",
+        "example": "Amazon.com"
+      },
+      {
+        "name": "size",
+        "description": "Physical dimensions or weight specifications of the product",
+        "type": "string",
+        "example": "11.9 x 8.2 x 5.2 inches"
+      },
+      {
+        "name": "sku",
+        "description": "Amazon's unique identifier for the product (ASIN)",
+        "type": "string",
+        "example": "B0031066V8"
+      },
+      {
+        "name": "style",
+        "description": "The product style or category specification",
+        "type": "string",
+        "example": "Wild Bird Food"
+      },
+      {
+        "name": "url",
+        "description": "The complete Amazon product page URL",
+        "type": "string",
+        "example": "https://www.amazon.com/Wagners-62042-Songbird-Supreme-8-Pound/dp/B0031066V8"
+      }
+    ],
+    "missing_values": {
+      "additionalProperties": "1 rows",
+      "brandName": "8 rows",
+      "breadcrumbs": "0 rows (complete)",
+      "color": "790 rows",
+      "currency": "102 rows",
+      "description": "0 rows (complete)",
+      "descriptionRaw": "0 rows (complete)",
+      "features": "121 rows",
+      "gtin": "944 rows",
+      "imageUrls": "1 rows",
+      "inStock": "145 rows",
+      "listedPrice": "479 rows",
+      "mpn": "620 rows",
+      "name": "0 rows (complete)",
+      "other_sellers": "661 rows",
+      "rating": "282 rows",
+      "reviewCount": "271 rows",
+      "salePrice": "102 rows",
+      "scrapedDate": "0 rows (complete)",
+      "sellerName": "6 rows",
+      "size": "111 rows",
+      "sku": "1 rows",
+      "style": "898 rows",
+      "url": "0 rows (complete)"
+    }
+  },
+  "size": {
+    "rows": 972,
+    "columns": 24
+  },
+  "date_created": "2025-01-24",
+  "usage": "For non-commercial, academic, and research purposes only."
+}
