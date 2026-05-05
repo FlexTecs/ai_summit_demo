@@ -1,0 +1,41 @@
+{
+    "title": "Amazon Bird Food Dataset",
+    "description": "This dataset contains information on bird food products listed on Amazon, including details such as name, price, ratings, reviews, and seller information. The dataset is intended for use in e-commerce analysis, product research, and data-driven marketing studies.",
+    "version": "1.0",
+    "keywords": ["Amazon", "bird food", "e-commerce", "product data", "wildlife"],
+    "contributors": [
+      {
+        "name": "Octaprice",
+        "role": "Data Curator",
+        "contact": "contact@octaprice.com"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "citation": "If using this dataset, please cite as: Amazon Bird Food Dataset, curated by Your Name, 2024.",
+    "source": "Amazon.com",
+    "data_schema": {
+      "columns": [
+        {"name": "name", "description": "Product name", "type": "string", "example": "Wagner's 57075 Safflower Seed Wild Bird Food"},
+        {"name": "price", "description": "Price of the product", "type": "float", "example": 11.98},
+        {"name": "ratingValue", "description": "Average customer rating", "type": "float", "example": 4.5},
+        {"name": "reviewCount", "description": "Number of customer reviews", "type": "integer", "example": 12637},
+        {"name": "seller_name", "description": "Name of the seller", "type": "string", "example": "Amazon.com"},
+        {"name": "url", "description": "URL to the product page", "type": "string", "example": "https://www.amazon.com/Wagners-57075-Safflower-Seed-5-Pound/dp/B004477AOO"},
+        {"name": "description", "description": "Product description", "type": "string", "example": "A high-quality blend to attract a wide variety of songbirds."}
+      ],
+      "missing_values": {
+        "price": "162 rows",
+        "ratingValue": "374 rows",
+        "reviewCount": "368 rows",
+        "seller_name": "37 rows",
+        "url": "0 rows (complete)"
+      }
+    },
+    "size": {
+      "rows": 1553,
+      "columns": 24
+    },
+    "date_created": "2025-01-06",
+    "usage": "For non-commercial, academic, and research purposes only."
+  }
+  

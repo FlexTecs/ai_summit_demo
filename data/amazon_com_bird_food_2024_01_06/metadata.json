@@ -1,0 +1,201 @@
+{
+    "title": "Generated Metadata from CSV",
+    "description": "Automatically generated metadata file for a product dataset in the bird food category.",
+    "version": "1.0",
+    "keywords": [
+        "e-commerce",
+        "bird food",
+        "Amazon",
+        "product data"
+    ],
+    "contributors": [
+        {
+            "name": "Auto Generator",
+            "role": "Script Generated",
+            "contact": "example@example.com"
+        }
+    ],
+    "license": "CC BY 4.0",
+    "citation": "If using this dataset, please cite as: Auto-Generated Dataset Metadata, 2025.",
+    "source": "Data extracted from provided CSV file.",
+    "data_schema": {
+        "columns": [
+            {
+                "name": "additionalProperties",
+                "description": "Description of additionalProperties",
+                "type": "object",
+                "example": "[{\"name\": \"Is Discontinued By Manufacturer\", \"value\": \"No\"}, {\"name\": \"Product Dimensions\", \"value\": \"22 x 13 x 3 inches; 20 Pounds\"}, {\"name\": \"Item model number\", \"value\": \"62004\"}, {\"name\": \"Date First Available\", \"value\": \"February 14, 2012\"}, {\"name\": \"Manufacturer\", \"value\": \"Wagner's\"}, {\"name\": \"ASIN\", \"value\": \"B0079GRXS0\"}, {\"name\": \"Country of Origin\", \"value\": \"USA\"}, {\"name\": \"Item Weight\", \"value\": \"20 pounds\"}, {\"name\": \"Manufacturer\", \"value\": \"Wagner's\"}, {\"name\": \"ASIN\", \"value\": \"B0079GRXS0\"}, {\"name\": \"Country of Origin\", \"value\": \"USA\"}, {\"name\": \"Item model number\", \"value\": \"62004\"}, {\"name\": \"Date First Available\", \"value\": \"February 14, 2012\"}, {\"name\": \"Item Package Dimensions L x W x H\", \"value\": \"21.5 x 13.5 x 3.2 inches\"}, {\"name\": \"Item Dimensions LxWxH\", \"value\": \"22 x 13 x 3 inches\"}, {\"name\": \"Item Weight\", \"value\": \"20 Pounds\"}, {\"name\": \"Brand Name\", \"value\": \"Wagner's\"}, {\"name\": \"Target Audience Keyword\", \"value\": \"birds\"}, {\"name\": \"Directions\", \"value\": \"Can be fed in a tube, hopper, or platform feeders\"}, {\"name\": \"Model Name\", \"value\": \"Eastern Regional Wild Bird Food\"}, {\"name\": \"Color\", \"value\": \"Original Version\"}, {\"name\": \"Size\", \"value\": \"20 Pound (Pack of 1)\"}, {\"name\": \"Age Range Description\", \"value\": \"All Life Stages\"}, {\"name\": \"Number of Items\", \"value\": \"1\"}, {\"name\": \"Manufacturer\", \"value\": \"Wagner's\"}, {\"name\": \"Style\", \"value\": \"Food\"}, {\"name\": \"Breed Recommendation\", \"value\": \"All Breed Sizes\"}, {\"name\": \"Included Components\", \"value\": \"Wild Bird Food Grains\"}, {\"name\": \"Specific Uses for Product\", \"value\": \"Wild Bird Feeding\"}, {\"name\": \"Best Sellers Rank\", \"value\": \"#188 in Patio #8 in Bird Seed\"}]"
+            },
+            {
+                "name": "availability",
+                "description": "Description of availability",
+                "type": "object",
+                "example": "InStock"
+            },
+            {
+                "name": "brandName",
+                "description": "Description of brandName",
+                "type": "object",
+                "example": "Wagner's"
+            },
+            {
+                "name": "breadcrumbs",
+                "description": "Description of breadcrumbs",
+                "type": "object",
+                "example": "[{\"name\": \"Patio, Lawn & Garden\", \"url\": \"https://www.amazon.com/Patio-Lawn-Garden/b/ref=dp_bc_aui_C_1?ie=UTF8&node=2972638011\"}, {\"name\": \"Outdoor D\\u00e9cor\", \"url\": \"https://www.amazon.com/Outdoor-Living/b/ref=dp_bc_aui_C_2?ie=UTF8&node=553788\"}, {\"name\": \"Backyard Birding & Wildlife\", \"url\": \"https://www.amazon.com/Backyard-Birding-Patio-Lawn-Garden/b/ref=dp_bc_aui_C_3?ie=UTF8&node=553632\"}, {\"name\": \"Birds\", \"url\": \"https://www.amazon.com/b/ref=dp_bc_aui_C_4?ie=UTF8&node=4532514011\"}, {\"name\": \"Food\", \"url\": \"https://www.amazon.com/b/ref=dp_bc_aui_C_5?ie=UTF8&node=13401981\"}, {\"name\": \"Bird Seed\", \"url\": \"https://www.amazon.com/b/ref=dp_bc_aui_C_6?ie=UTF8&node=13401991\"}]"
+            },
+            {
+                "name": "canonicalUrl",
+                "description": "Description of canonicalUrl",
+                "type": "object",
+                "example": "https://www.amazon.com/Wagners-62004-Eastern-Regional-20-Pound/dp/B0079GRXS0"
+            },
+            {
+                "name": "currency",
+                "description": "Description of currency",
+                "type": "object",
+                "example": "USD"
+            },
+            {
+                "name": "currencyRaw",
+                "description": "Description of currencyRaw",
+                "type": "object",
+                "example": "$"
+            },
+            {
+                "name": "dateDownloaded",
+                "description": "Description of dateDownloaded",
+                "type": "object",
+                "example": "2025-01-06T17:05:29Z"
+            },
+            {
+                "name": "description",
+                "description": "Description of description",
+                "type": "object",
+                "example": "Wagner\u2019s Eastern Regional Blend will attract more of the songbirds you want to see by offering more of the seeds backyard birds in your area look for. Blended with black oil sunflower, striped sunflower seed, safflower seed and other select grains, it\u2019s sure to be a hit at the feeder. You\u2019ll be surprised at the types of wild birds you will attract. This blend works well in all types of feeders, by offering your backyard birds a larger quantity of the seeds they enjoy, you will be rewarded with the different types of songbirds that will come to your feeders. Cardinals, Chickadees, Finches and Blue Jays will be frequent visitors to your backyard. Trust your backyard birds to the experts at Wagner\u2019s."
+            },
+            {
+                "name": "descriptionHtml",
+                "description": "Description of descriptionHtml",
+                "type": "object",
+                "example": "<article>\n\n<p>Wagner\u2019s Eastern Regional Blend will attract more of the songbirds you want to see by offering more of the seeds backyard birds in your area look for. Blended with black oil sunflower, striped sunflower seed, safflower seed and other select grains, it\u2019s sure to be a hit at the feeder. You\u2019ll be surprised at the types of wild birds you will attract. This blend works well in all types of feeders, by offering your backyard birds a larger quantity of the seeds they enjoy, you will be rewarded with the different types of songbirds that will come to your feeders. Cardinals, Chickadees, Finches and Blue Jays will be frequent visitors to your backyard. Trust your backyard birds to the experts at Wagner\u2019s.</p>\n\n</article>"
+            },
+            {
+                "name": "gtin",
+                "description": "Description of gtin",
+                "type": "object",
+                "example": "[{\"type\": \"upc\", \"value\": \"751478102542\"}]"
+            },
+            {
+                "name": "images",
+                "description": "Description of images",
+                "type": "object",
+                "example": "[{\"url\": \"https://m.media-amazon.com/images/I/91QfXraA9VL._AC_SL1500_.jpg\"}, {\"url\": \"https://m.media-amazon.com/images/I/91Rq2IaBTyL._AC_SL1500_.jpg\"}, {\"url\": \"https://m.media-amazon.com/images/I/910Z6Fpsx-L._AC_SL1500_.jpg\"}, {\"url\": \"https://m.media-amazon.com/images/I/715X+3h2enL._AC_SL1500_.jpg\"}, {\"url\": \"https://m.media-amazon.com/images/I/71dC19pdrvL._AC_SL1500_.jpg\"}]"
+            },
+            {
+                "name": "mainImageUrl",
+                "description": "Description of mainImageUrl",
+                "type": "object",
+                "example": "https://m.media-amazon.com/images/I/91QfXraA9VL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+            },
+            {
+                "name": "mpn",
+                "description": "Description of mpn",
+                "type": "object",
+                "example": "62004"
+            },
+            {
+                "name": "name",
+                "description": "Description of name",
+                "type": "object",
+                "example": "Wagner's 62004 Eastern Regional Wild Bird Food, 20-Pound Bag"
+            },
+            {
+                "name": "other_sellers",
+                "description": "Description of other_sellers",
+                "type": "object",
+                "example": "[{\"seller_name\": \"Amazon Resale\", \"price\": \"25.47\"}]"
+            },
+            {
+                "name": "price",
+                "description": "Description of price",
+                "type": "float64",
+                "example": 37.49
+            },
+            {
+                "name": "ratingValue",
+                "description": "Description of ratingValue",
+                "type": "float64",
+                "example": 4.6
+            },
+            {
+                "name": "regularPrice",
+                "description": "Description of regularPrice",
+                "type": "float64",
+                "example": 30.49
+            },
+            {
+                "name": "reviewCount",
+                "description": "Description of reviewCount",
+                "type": "float64",
+                "example": 13766.0
+            },
+            {
+                "name": "seller_name",
+                "description": "Description of seller_name",
+                "type": "object",
+                "example": "Amazon.com"
+            },
+            {
+                "name": "sku",
+                "description": "Description of sku",
+                "type": "object",
+                "example": "B0079GRXS0"
+            },
+            {
+                "name": "url",
+                "description": "Description of url",
+                "type": "object",
+                "example": "https://www.amazon.com/Wagners-62004-Eastern-Regional-20-Pound/dp/B0079GRXS0"
+            },
+            {
+                "name": "variants",
+                "description": "Description of variants",
+                "type": "object",
+                "example": "[{\"asin\": \"B004477AKI\", \"url\": \"https://www.amazon.com/dp/B004477AKI\"}, {\"asin\": \"B0079GRXS0\", \"url\": \"https://www.amazon.com/dp/B0079GRXS0\"}]"
+            }
+        ],
+        "missing_values": {
+            "additionalProperties": "43 rows",
+            "availability": "129 rows",
+            "brandName": "41 rows",
+            "breadcrumbs": "48 rows",
+            "canonicalUrl": "1 rows",
+            "currency": "179 rows",
+            "currencyRaw": "179 rows",
+            "dateDownloaded": "0 rows",
+            "description": "5 rows",
+            "descriptionHtml": "5 rows",
+            "gtin": "1831 rows",
+            "images": "34 rows",
+            "mainImageUrl": "30 rows",
+            "mpn": "1246 rows",
+            "name": "1 rows",
+            "other_sellers": "1331 rows",
+            "price": "179 rows",
+            "ratingValue": "482 rows",
+            "regularPrice": "1031 rows",
+            "reviewCount": "480 rows",
+            "seller_name": "61 rows",
+            "sku": "34 rows",
+            "url": "0 rows",
+            "variants": "928 rows"
+        }
+    },
+    "size": {
+        "rows": 1880,
+        "columns": 24
+    },
+    "date_created": "2025-01-06",
+    "usage": "For non-commercial, academic, and research purposes only."
+}
